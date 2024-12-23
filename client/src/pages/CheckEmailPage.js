@@ -27,7 +27,7 @@ const CheckEmailPage = () => {
     e.preventDefault()
     e.stopPropagation()
 
-    const URL = `https://quick-chat-backend-n12b.onrender.com/api/email`
+    const URL = 'https://quick-chat-backend-n12b.onrender.com/api/email'
 
     try {
         const response = await axios.post(URL,data)
