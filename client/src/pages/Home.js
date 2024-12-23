@@ -40,7 +40,7 @@ const Home = () => {
 
   /***socket connection */
   useEffect(()=>{
-    const socketConnection = io(https://quick-chat-backend-n12b.onrender.com,{
+    const socketConnection = io('https://quick-chat-backend-n12b.onrender.com',{
       auth : {
         token : localStorage.getItem('token')
       },
